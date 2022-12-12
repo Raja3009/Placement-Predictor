@@ -8,7 +8,7 @@ file = open('campusplacementpredictor.pkl', 'rb')
 rf = pickle.load(file)
 file.close()
 
-
+#creating flask app
 app = Flask(__name__)
 
 
